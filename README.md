@@ -14,7 +14,7 @@ Comparar a carga horária apurada pela Tom Educação com a carga horária ofici
 ## Saídas
 
 * `Analise_CH_por_Escola.xlsx`: análise de carga horária por escola.
-* `Resumo_Executivo.xlsx`: resumo executivo preenchido automaticamente.
+* `Resumo_Executivo.xlsx`
 
 ## Requisitos
 
@@ -23,35 +23,32 @@ Comparar a carga horária apurada pela Tom Educação com a carga horária ofici
 * openpyxl
 * numpy
 
-Instale as dependências com:
 
 ## Como executar
 
 1. Clone o repositório:
 
-   ```bash
-   ```
-   git clone [https://github.com/raulward/tec\_case\_tom\_educacao.git](https://github.com/raulward/tec_case_tom_educacao.git)
-````
+```bash
+git clone https://github.com/raulward/tec_case_tom_educacao.git
+```
+
 2. Acesse o diretório do projeto:
 
-   ```bash
+```bash
 cd tec_case_tom_educacao
-````
+```
 
 3. Instale as dependências:
 
-   ```bash
-   ```
-
+```bash
 pip install -r requirements.txt
+```
 
-````
 4. Abra e execute o notebook:
 
-   ```bash
+```bash
 jupyter notebook notebooks/main.ipynb
-````
+```
 
 ## Link do projeto
 
